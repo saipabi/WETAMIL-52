@@ -1,0 +1,67 @@
+1.	Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+HTTP1.1:
+
+(1). The first usable version of HTTP was created in 1997.
+         (2). This first version of HTTP was called HTTP1.1. 
+(3). This version is still in use on the web.
+
+HTTP2:
+
+(1). In 2015, a new version of HTTP called HTTP2 was created.
+(2). HTTP/2 solves several problems than HTTP2.
+(3). It is much faster and more efficient than HTTP1.1
+(4). It is faster is in how it prioritizes content during the loading process.
+
+
+2.	Write a blog about objects and its internal representation in Javascript
+
+Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data types (Number, String, Boolean, null, undefined, and symbol) in the sense that these primitive data types all store a single value each (depending on their types).
+
+4.	Read about IP address, port, HTTP methods, MAC address
+	
+IP ADDRESS:
+An Internet Protocol (IP) address is a unique numerical identifier for every device or network that connects to the internet. 
+
+PORT:
+A port number is a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.
+
+HTTP METHODS:
+HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
+
+GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+
+HEAD
+The HEAD method asks for a response identical to a GET request, but without the response body.
+
+POST
+The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+
+DELETE
+The DELETE method deletes the specified resource.
+
+CONNECT
+The CONNECT method establishes a tunnel to the server identified by the target resource.
+
+OPTIONS
+The OPTIONS method describes the communication options for the target resource.
+
+TRACE
+The TRACE method performs a message loop-back test along the path to the target resource.
+
+PATCH
+The PATCH method applies partial modifications to a resource.
+
+MAC ADDRESS:
+A MAC (Media Access Control) address, sometimes referred to as hardware or physical address is a unique, 12-character alphanumeric attribute that is used to identify individual electronic devices on a network. An example of a MAC address is: 00-B0-D0-63-C2-26.
+
+
+
+
+
+
