@@ -1,0 +1,219 @@
+1. JSON FOR LOOP:
+
+var movies = [
+    {
+    "Name" : "singam",
+    "hero": "surya",
+
+    "released": "2010",
+    "director": "hari",
+    
+},
+{
+        "Name" : "vinnai thandi varuvaya",
+    "hero": "str",
+
+    "released": "2010",
+    "director": "gowtham",
+    
+},
+{
+        "Name" : "endhiran",
+    "hero": "rajni",
+
+    "released": "2010",
+    "director": "shankar",
+} 
+];
+  
+    for
+ (i=0; i<movies.length;i++){
+        console.log(movies[i].Name);
+        console.log(movies[i].released);
+        console.log(movies[i].director);
+        console.log(movies[i].hero);
+    }
+   
+    }
+
+2. JSON FOR IN LOOP:
+
+var movies = {
+    
+    "Name" : "singam",
+    "hero": "surya",
+
+    "released": "2010",
+    "director": "hari",}
+for(let key in movies){
+console.log(key);
+}
+
+3. JSON FOR OF LOOP:
+const iterable = new Map([
+  ["a", 1],
+  ["b", 2],
+  ["c", 3],
+]);
+
+for (const entry of iterable) {
+  console.log(entry);
+}
+
+
+for (const [key, value] of iterable) {
+  console.log(value);
+}
+
+4. FOR EACH LOOP:
+
+const animals = {
+    "tiger": "1",
+
+    "cat": "2",
+
+    "monkey": "3",
+
+    "elephant": "4"
+};
+
+// iterate over object values
+
+Object.values(animals).forEach(val => console.log(val));
+
+
+
+II. RESUME IN JSON FORMAT:
+
+“Suriya Rajarajesh in JSON format Resume”
+{
+
+	  "basics": {
+	    "name": :”Suriya Rajarajesh",
+	    "label": "",
+	    "picture": "",
+	    "email": "saipabi123@gmail.com",
+	    "phone": "(+91) 6381565927.",
+	    "degree": {"MA Human Resource Management",
+	    "website": "Nil",
+	    "summary": "Being a fresher and I have done several projects in Java script.",
+	    "location": “Chennai
+	      "address": "No.4/20, 6th street, Ashok nagar, Chennai – 600 083",
+	      "postalCode": “600 083”,
+	      "city": "Ashok nagar",
+	      "countryCode": "(India)",
+	      "region": "Tamil nadu"
+	    },
+	    "profiles": [
+	      {
+	        "network": "Linked in",
+	        "username": "suriya rajarajesh",
+	        "url": “ nil”
+	      }
+	    ]
+	  },
+	  "work": [
+	    {
+	      "company": "fresher",
+	      "position": "full stock developer",
+	      "website": "nil",
+	      "startDate": "fresher",
+	      "endDate": "fresher",
+	      "summary": "I will give full my efforts to the employer",
+	    
+	   
+	      ]
+	    }
+	  ],
+
+III. THE DIFFERENCE BETWEEN WINDOW, SCREEN AND OBJECT:
+
+The window is the actual global object.
+
+The screen is the screen, it contains properties about the user's display.
+
+The document is where the DOM is.
+
+document can also be window.document, 
+screen can be window.screen 
+and window can be window.window.
+
+
+
+	 
+	    
+	  
+	
+	
+	
+	
+	
+	
+	
+	     
+	    }
+	
+	  "education": [
+	    {
+	      "institution": "WCC",
+	      "area": "Human Resource Management",
+	      "studyType": "Regular",
+	      "startDate": "Your start date, in 2009-june-06",
+	      "endDate": "Your completion date, in 2011-may-05",
+	     
+	      "courses": [
+	        "BA. History in WCC 2009 passed out, MA Human Resource Management in Wcc 2011 passed out"
+	      ]
+	    }
+	  ],
+	  "awards": [
+	    {
+	      "title": "good speaker",
+	      "date": "2002",
+	      "awarder": "school",
+	      "summary": "A topic on farmers"
+	    }
+	  ],
+	  "publications": [
+	    {
+	      "name": "Your publication title",
+	      "publisher": "Publisher name",
+	      "releaseDate": "Publication date, in YYYY-MM-DD format",
+	      "website": "The website URL for this publisher or book",
+	      "summary": "A one-sentence to one-paragraph overview of this publication"      
+	    }
+	  ],
+	  "skills": [
+	    {
+	      "name": "A category of job skills (e.g. 'Programming Languages')",
+	      "level": "",
+	      "keywords": [
+	        "graphical designer completed in 2005, MS office, typewriting in both Tamil and English"
+	      ]
+	    }
+	  ],
+	  "languages": [
+	    {
+	      "language": "Tamil, English, Hindi",
+	      "fluency": "Tamil and English"
+	    }
+	  ],
+	  "interests": [
+	    {
+	      "name": "playing with kids",
+	      "keywords": [
+	        "carom, chess"
+	      ]
+	    }
+	  ]
+	}
+
+
+
+
+
+
+   
+   
+  
+
